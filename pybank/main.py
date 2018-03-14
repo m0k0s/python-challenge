@@ -49,6 +49,6 @@ budget_df.head()
 
 
 with open("pybank.txt", "w") as text_file:
-    print(f"Total Months: {td_mon}", f"Total Revenue: {sumrev}", f"Average Monthly Change in Revenue: {avgrevchange}", 
+    print(f"Total Months: {td}", f"Total Revenue: {sumrev}", f"Average Monthly Change in Revenue: {avgrevchange}", 
           f"Greatest Increase in Monthly Revenue: {incr}", 
           f"Greatest Decrease in Monthly Revenue: {decr}", file=text_file)
